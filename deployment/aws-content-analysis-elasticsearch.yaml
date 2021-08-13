@@ -81,6 +81,9 @@ Resources:
       ElasticsearchVersion: 7.10
       SnapshotOptions:
         AutomatedSnapshotStartHour: 0
+      DomainEndpointOptions:
+        EnableHTTPS: true
+        TLSSecurityPolicy: "Policy-Min-TLS-1-2-2019-07"
 
   # elastic search consumer lambda
 
